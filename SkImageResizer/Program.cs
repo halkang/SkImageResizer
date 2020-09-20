@@ -22,7 +22,7 @@ namespace SkImageResizer
             imageProcess.Clean(destinationPath1);
 
             sw.Start();
-            imageProcess.ResizeImages(sourcePath, destinationPath1, 2.0);
+            //imageProcess.ResizeImagesAsync(sourcePath, destinationPath1, 2.0);
             sw.Stop();
 
             decimal result1 = sw.ElapsedMilliseconds;
